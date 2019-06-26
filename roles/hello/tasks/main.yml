@@ -1,0 +1,5 @@
+---
+- debug:
+    msg: Hello, World!
+- name: Output hello world to file.txt
+  shell: echo 'Hello, World!' > file.txt

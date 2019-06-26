@@ -1,0 +1,7 @@
+---
+- hosts: bastion
+  tasks:
+  - debug:
+      msg: This is a standalone task
+  roles:
+  - role: hello

@@ -1,0 +1,5 @@
+[bastion:vars]
+ansible_user=ec2-user
+
+[bastion]
+bastion.akeating-0001.openshiftworkshop.com
